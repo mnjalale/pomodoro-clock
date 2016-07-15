@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Just+Another+Hand'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid theme-background-color">
+        <div class="row-fluid">
+            <div class="centering">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h2 class="title">Poromodo Clock</h2>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-xs-6">
+                            <div class="col-xs-12 text-right">
+                                <span class="theme-color">BREAK LENGTH</span>
+                            </div>
+                            <div class="col-xs-7 text-right no-padding">
+                                <button id="reduceBreak" class="session-length">-</button>
+                            </div>
+                            <div class="col-xs-3 no-padding text-center">
+                                <p class="session-length" id="breakLength">5</p>
+                            </div>
+                            <div class="col-xs-2 text-left no-padding">
+                                <button id="addBreak" class="session-length">+</button>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="col-xs-12 text-left">
+                                <span class="theme-color">SESSION LENGTH</span>
+                            </div>
+                            <div class="col-xs-2 text-right no-padding">
+                                <button id="reduceSession" class="session-length">-</button>
+                            </div>
+                            <div class="col-xs-3 no-padding text-center">
+                                <p class="session-length" id="sessionLength">25</p>
+                            </div>
+                            <div class="col-xs-7 text-left no-padding">
+                                <button id="addSession" class="session-length">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div id="sessionCountdown" class="session-countdown text-center">
+                            <p id="sessionType" class="session-countdown-text">Session</p>
+                            <p id="countdownText" class="session-countdown-text">25</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
